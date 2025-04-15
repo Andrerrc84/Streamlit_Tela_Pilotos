@@ -297,7 +297,6 @@ def exibir_layout(df, df_ctl, intervalos):
         st.error(f"Erro inesperado: {e}")
 
 
-# Configuração inicial do Streamlit ##################################################################################################
 # Ajuste da página do streamlit, otimiza o espaço de cabeçalho
 st.set_page_config(page_title="Espelho - Fila de Pilotos", layout="wide", initial_sidebar_state="collapsed")
 st.markdown(
@@ -318,7 +317,7 @@ placeholder = st.empty()
 # Botão para carregar o caminho do arquivo na rede
 col1, col2 = st.columns([6,2])
 with col1:
-    caminho_arquivo = st.text_input("Insira o caminho para o arquivo .xls:", "\\\cti-16222\FILA-CLARAS\Fila 2025\\04 - Abril\Semana 3 CLA.xls") 
+    caminho_arquivo = st.text_input("Insira o caminho para o arquivo .xls:", r"\\cti-16222\FILA-CLARAS\Fila 2025\04 - Abril\Semana 3 CLA.xls")
 with col2:
     st.text('') 
     st.text('') 
