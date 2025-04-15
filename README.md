@@ -1,6 +1,5 @@
 # Streamlit_Tela_Pilotos
-"""
-Projeto Mostrar Fila de Pilotos
+
 O que o projeto faz: esse projeto verifica as informações de um arquivo excel em tempo real, enquanto está
 sendo utilizado por gestores de pilotos do Metrô DF, para a organização das voltas.
 
@@ -20,4 +19,3 @@ e exibir nas telas das salas dos pilotos as informações extraídas.
 
 Quem mantém e contribui com o projeto: Assistente Técnico responsável pela área de Tráfego, junto a Fila de Pilotos
 André Ribeiro - (61)98141-2110
-"""
